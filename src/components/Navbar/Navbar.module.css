@@ -1,0 +1,203 @@
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.navpage {
+    height: max-content;
+    width: 40%;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.navlogo {
+    padding: 10px;
+    width: 20%;
+    height: max-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoimg {
+    width: 90px;
+    height: auto;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    width: 40%;
+    height: 90px;
+}
+
+.navlink,
+.navlink:hover,
+.navlink:focus {
+    text-decoration: none;
+    color: #424242;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+}
+
+.cartbutton,
+.cartbutton:hover,
+.cartbutton:focus {
+    text-decoration: none;
+    color: white;
+    background-color: #424242;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.cartbutton:hover {
+    background-color: #616161;
+}
+
+.heart {
+    font-size: 36px;
+    color: #424242;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.ulstyle {
+    list-style-type: none;
+}
+
+.whiteicon {
+    font-size: 1.6em;
+    color: white;
+}
+
+.hamburgmenu {
+    display: none;
+}
+
+.shoppingButton {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .navpage {
+        display: none;
+    }
+
+    .hamburgmenu {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 1.6em;
+        color: #424242;
+        width: 65px;
+        cursor: pointer;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .crosspos {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        padding-top: 22px;
+        padding-bottom: 20px;
+    }
+
+    .cross {
+        font-size: 1.6em;
+        color: #424242;
+        cursor: pointer;
+    }
+
+    .shoppingButton {
+        text-decoration: none;
+        color: white;
+        background-color: #424242;
+        height: 30px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 14px;
+
+        border-radius: 30px;
+    }
+
+    .navlink {
+        width: 100%;
+        height: 20px;
+    }
+
+    .navbar {
+        background-color: white;
+        width: 100%;
+        height: 70px;
+        position: relative;
+        gap: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoimg {
+        width: 60px;
+        height: auto;
+    }
+
+    .mobilemenu {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: start;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 20px;
+        margin-left: 20px;
+        height: fit-content;
+        width: 125px;
+        z-index: 50;
+    }
+}

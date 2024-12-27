@@ -1,0 +1,806 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Favorites component > renders 'No products available' message when there are no favorite products 1`] = `
+<div>
+  <main>
+    <nav
+      aria-label="Main Navigation"
+      class="_navbar_278c00"
+      role="navigation"
+    >
+      <svg
+        aria-label="Open Menu"
+        class="_hamburgmenu_278c00"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 15 15"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <div
+        aria-label="Desktop Navigation Links"
+        class="_navpage_278c00"
+        role="navigation"
+      >
+        <a
+          class="_navlink_278c00"
+          href="/"
+        >
+          <p>
+            HOME
+          </p>
+        </a>
+        <a
+          class="_navlink_278c00"
+          href="/Shopping"
+        >
+          <p>
+            SHOP
+          </p>
+        </a>
+      </div>
+      <div
+        class="_navlogo_278c00"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="RealStore logo"
+            aria-label="RealStore Logo"
+            class="_logoimg_278c00"
+            src="/project1/Logo.svg"
+          />
+        </a>
+      </div>
+      <div
+        aria-label="User Navigation"
+        class="_navlinks_278c00"
+        role="navigation"
+      >
+        <a
+          class="_cartbutton_278c00"
+          href="/ShoppingCart"
+        >
+          <p>
+            MY CART
+          </p>
+          <svg
+            aria-hidden="true"
+            class="_whiteicon_278c00"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <a
+          class="_navlink_278c00"
+          href="/Favorites"
+        >
+          <svg
+            aria-label="View My Favorites"
+            class="_heart_278c00"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="Heart"
+            >
+              <path
+                d="M12,20.043a.977.977,0,0,1-.7-.288L4.63,13.08A5.343,5.343,0,0,1,6.053,4.513,5.266,5.266,0,0,1,12,5.371a5.272,5.272,0,0,1,5.947-.858A5.343,5.343,0,0,1,19.37,13.08l-6.676,6.675A.977.977,0,0,1,12,20.043ZM8.355,4.963A4.015,4.015,0,0,0,6.511,5.4,4.4,4.4,0,0,0,4.122,8.643a4.345,4.345,0,0,0,1.215,3.73l6.675,6.675,6.651-6.675a4.345,4.345,0,0,0,1.215-3.73A4.4,4.4,0,0,0,17.489,5.4a4.338,4.338,0,0,0-4.968.852h0a.744.744,0,0,1-1.042,0A4.474,4.474,0,0,0,8.355,4.963Z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <a
+        aria-label="View My Cart"
+        class="_shoppingButton_278c00"
+        href="/ShoppingCart"
+      >
+        <svg
+          aria-hidden="true"
+          class="_whiteicon_278c00"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </nav>
+  </main>
+  <main
+    aria-label="Favorite Products"
+    class="_favoritepage_b7f171"
+    role="region"
+  >
+    <div
+      class="_favoritecontainer_b7f171"
+    >
+      <nav
+        aria-label="Navigation"
+        class="_path_b7f171"
+      >
+        <a
+          class="_pathlink_b7f171"
+          href="/"
+        >
+          Home
+        </a>
+         
+        / Favorites
+      </nav>
+      <p
+        class="_title_b7f171"
+      >
+        FAVORITES
+      </p>
+      <section
+        aria-description="List of favorite products"
+        class="_favoriteitems_b7f171"
+        role="list"
+      >
+        <section
+          aria-live="polite"
+          class="_message_b7f171"
+          role="status"
+        >
+          No products available.
+        </section>
+      </section>
+    </div>
+  </main>
+  <footer
+    aria-label="Website Footer"
+    class="_footer_eb428f"
+    role="contentinfo"
+  >
+    <section
+      class="_imageholder_eb428f"
+    >
+      <img
+        alt="Decorative footer image"
+        class="_image_eb428f"
+        src="/project1/footer.svg"
+      />
+      <p
+        class="_title_eb428f"
+      >
+        EXPLORE OUR CATALOG
+      </p>
+      <div
+        aria-label="Footer Navigation"
+        class="_box_eb428f"
+        role="region"
+      >
+        <div
+          class="_informationbox_eb428f"
+        >
+          <p
+            class="_informationtitle_eb428f"
+          >
+            GENERAL
+          </p>
+          <a
+            class="_informationlink_eb428f"
+            href="/"
+          >
+            <p
+              aria-label="Home Link"
+              class="_informationtext_eb428f"
+            >
+              Home
+            </p>
+          </a>
+          <a
+            class="_informationlink_eb428f"
+            href="/Shopping"
+          >
+            <p
+              class="_informationtext_eb428f"
+            >
+              Shop
+            </p>
+          </a>
+        </div>
+        <div
+          aria-hidden="true"
+          class="_divider_eb428f"
+          role="separator"
+        />
+        <div
+          aria-label="Footer Logo and Information"
+          class="_logobox_eb428f"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="RealStore logo"
+              aria-label="RealStore Logo"
+              class="_logoimg_eb428f"
+              src="/project1/Logo.svg"
+            />
+          </a>
+          <p
+            class="_logoinformation_eb428f"
+          >
+            @2024 RealStore.com
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+</div>
+`;
+
+exports[`Favorites component > renders error state when data fetching fails 1`] = `
+<div>
+  <section
+    aria-live="assertive"
+    role="alert"
+  >
+    Error fetching products.
+  </section>
+</div>
+`;
+
+exports[`Favorites component > renders favorite products 1`] = `
+<div>
+  <main>
+    <nav
+      aria-label="Main Navigation"
+      class="_navbar_278c00"
+      role="navigation"
+    >
+      <svg
+        aria-label="Open Menu"
+        class="_hamburgmenu_278c00"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 15 15"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <div
+        aria-label="Desktop Navigation Links"
+        class="_navpage_278c00"
+        role="navigation"
+      >
+        <a
+          class="_navlink_278c00"
+          href="/"
+        >
+          <p>
+            HOME
+          </p>
+        </a>
+        <a
+          class="_navlink_278c00"
+          href="/Shopping"
+        >
+          <p>
+            SHOP
+          </p>
+        </a>
+      </div>
+      <div
+        class="_navlogo_278c00"
+      >
+        <a
+          href="/"
+        >
+          <img
+            alt="RealStore logo"
+            aria-label="RealStore Logo"
+            class="_logoimg_278c00"
+            src="/project1/Logo.svg"
+          />
+        </a>
+      </div>
+      <div
+        aria-label="User Navigation"
+        class="_navlinks_278c00"
+        role="navigation"
+      >
+        <a
+          class="_cartbutton_278c00"
+          href="/ShoppingCart"
+        >
+          <p>
+            MY CART
+          </p>
+          <svg
+            aria-hidden="true"
+            class="_whiteicon_278c00"
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <a
+          class="_navlink_278c00"
+          href="/Favorites"
+        >
+          <svg
+            aria-label="View My Favorites"
+            class="_heart_278c00"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="Heart"
+            >
+              <path
+                d="M12,20.043a.977.977,0,0,1-.7-.288L4.63,13.08A5.343,5.343,0,0,1,6.053,4.513,5.266,5.266,0,0,1,12,5.371a5.272,5.272,0,0,1,5.947-.858A5.343,5.343,0,0,1,19.37,13.08l-6.676,6.675A.977.977,0,0,1,12,20.043ZM8.355,4.963A4.015,4.015,0,0,0,6.511,5.4,4.4,4.4,0,0,0,4.122,8.643a4.345,4.345,0,0,0,1.215,3.73l6.675,6.675,6.651-6.675a4.345,4.345,0,0,0,1.215-3.73A4.4,4.4,0,0,0,17.489,5.4a4.338,4.338,0,0,0-4.968.852h0a.744.744,0,0,1-1.042,0A4.474,4.474,0,0,0,8.355,4.963Z"
+              />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <a
+        aria-label="View My Cart"
+        class="_shoppingButton_278c00"
+        href="/ShoppingCart"
+      >
+        <svg
+          aria-hidden="true"
+          class="_whiteicon_278c00"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </nav>
+  </main>
+  <main
+    aria-label="Favorite Products"
+    class="_favoritepage_b7f171"
+    role="region"
+  >
+    <div
+      class="_favoritecontainer_b7f171"
+    >
+      <nav
+        aria-label="Navigation"
+        class="_path_b7f171"
+      >
+        <a
+          class="_pathlink_b7f171"
+          href="/"
+        >
+          Home
+        </a>
+         
+        / Favorites
+      </nav>
+      <p
+        class="_title_b7f171"
+      >
+        FAVORITES
+      </p>
+      <section
+        aria-description="List of favorite products"
+        class="_favoriteitems_b7f171"
+        role="list"
+      >
+        <article
+          aria-label="Product card for Product 1..."
+          class="_clothingSection_47ab48"
+          role="region"
+        >
+          <figure
+            class="_imgContainer_47ab48"
+          >
+            <a
+              href="/Clothe/1"
+            >
+              <img
+                alt="Image of Product 1..."
+                class="_clothingImage_47ab48"
+                src="image1.jpg"
+              />
+            </a>
+          </figure>
+          <section
+            class="_descriptionSpace_47ab48"
+          >
+            <header
+              class="_productType_47ab48"
+            >
+              <h5
+                class="_category_47ab48"
+              >
+                Category1
+              </h5>
+              <section
+                aria-label="Product Actions"
+                class="_IconSpace_47ab48"
+              >
+                <span
+                  aria-label="Add to cart"
+                  role="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    tabindex="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="176"
+                      cy="416"
+                      fill="none"
+                      r="16"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                    <circle
+                      cx="400"
+                      cy="416"
+                      fill="none"
+                      r="16"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                    <path
+                      d="M48 80h64l48 272h256"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                    <path
+                      d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                  </svg>
+                </span>
+                <span
+                  aria-label="Remove from favorites"
+                  role="button"
+                >
+                  <svg
+                    class="_favorited_47ab48"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    tabindex="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 448l-30.164-27.211C118.718 322.442 48 258.61 48 179.095 48 114.221 97.918 64 162.4 64c36.399 0 70.717 16.742 93.6 43.947C278.882 80.742 313.199 64 349.6 64 414.082 64 464 114.221 464 179.095c0 79.516-70.719 143.348-177.836 241.694L256 448z"
+                    />
+                  </svg>
+                </span>
+              </section>
+            </header>
+            <footer
+              class="_nameAndPrice_47ab48"
+            >
+              <span
+                class="_productname_47ab48"
+              >
+                <h4
+                  class="_h4text_47ab48"
+                >
+                  Product 1...
+                </h4>
+              </span>
+              <span
+                class="_price_47ab48"
+              >
+                <h4
+                  class="_h4text_47ab48"
+                >
+                  $ 
+                  10
+                </h4>
+              </span>
+            </footer>
+          </section>
+        </article>
+        <article
+          aria-label="Product card for Product 2..."
+          class="_clothingSection_47ab48"
+          role="region"
+        >
+          <figure
+            class="_imgContainer_47ab48"
+          >
+            <a
+              href="/Clothe/2"
+            >
+              <img
+                alt="Image of Product 2..."
+                class="_clothingImage_47ab48"
+                src="image2.jpg"
+              />
+            </a>
+          </figure>
+          <section
+            class="_descriptionSpace_47ab48"
+          >
+            <header
+              class="_productType_47ab48"
+            >
+              <h5
+                class="_category_47ab48"
+              >
+                Category2
+              </h5>
+              <section
+                aria-label="Product Actions"
+                class="_IconSpace_47ab48"
+              >
+                <span
+                  aria-label="Add to cart"
+                  role="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    tabindex="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="176"
+                      cy="416"
+                      fill="none"
+                      r="16"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                    <circle
+                      cx="400"
+                      cy="416"
+                      fill="none"
+                      r="16"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                    <path
+                      d="M48 80h64l48 272h256"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                    <path
+                      d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="32"
+                    />
+                  </svg>
+                </span>
+                <span
+                  aria-label="Remove from favorites"
+                  role="button"
+                >
+                  <svg
+                    class="_favorited_47ab48"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    tabindex="0"
+                    viewBox="0 0 512 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M256 448l-30.164-27.211C118.718 322.442 48 258.61 48 179.095 48 114.221 97.918 64 162.4 64c36.399 0 70.717 16.742 93.6 43.947C278.882 80.742 313.199 64 349.6 64 414.082 64 464 114.221 464 179.095c0 79.516-70.719 143.348-177.836 241.694L256 448z"
+                    />
+                  </svg>
+                </span>
+              </section>
+            </header>
+            <footer
+              class="_nameAndPrice_47ab48"
+            >
+              <span
+                class="_productname_47ab48"
+              >
+                <h4
+                  class="_h4text_47ab48"
+                >
+                  Product 2...
+                </h4>
+              </span>
+              <span
+                class="_price_47ab48"
+              >
+                <h4
+                  class="_h4text_47ab48"
+                >
+                  $ 
+                  20
+                </h4>
+              </span>
+            </footer>
+          </section>
+        </article>
+      </section>
+    </div>
+  </main>
+  <footer
+    aria-label="Website Footer"
+    class="_footer_eb428f"
+    role="contentinfo"
+  >
+    <section
+      class="_imageholder_eb428f"
+    >
+      <img
+        alt="Decorative footer image"
+        class="_image_eb428f"
+        src="/project1/footer.svg"
+      />
+      <p
+        class="_title_eb428f"
+      >
+        EXPLORE OUR CATALOG
+      </p>
+      <div
+        aria-label="Footer Navigation"
+        class="_box_eb428f"
+        role="region"
+      >
+        <div
+          class="_informationbox_eb428f"
+        >
+          <p
+            class="_informationtitle_eb428f"
+          >
+            GENERAL
+          </p>
+          <a
+            class="_informationlink_eb428f"
+            href="/"
+          >
+            <p
+              aria-label="Home Link"
+              class="_informationtext_eb428f"
+            >
+              Home
+            </p>
+          </a>
+          <a
+            class="_informationlink_eb428f"
+            href="/Shopping"
+          >
+            <p
+              class="_informationtext_eb428f"
+            >
+              Shop
+            </p>
+          </a>
+        </div>
+        <div
+          aria-hidden="true"
+          class="_divider_eb428f"
+          role="separator"
+        />
+        <div
+          aria-label="Footer Logo and Information"
+          class="_logobox_eb428f"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="RealStore logo"
+              aria-label="RealStore Logo"
+              class="_logoimg_eb428f"
+              src="/project1/Logo.svg"
+            />
+          </a>
+          <p
+            class="_logoinformation_eb428f"
+          >
+            @2024 RealStore.com
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+</div>
+`;
+
+exports[`Favorites component > renders loading state initially 1`] = `
+<div>
+  <section
+    aria-live="polite"
+    role="status"
+  >
+    Loading...
+  </section>
+</div>
+`;

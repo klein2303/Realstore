@@ -1,0 +1,117 @@
+.filterSection {
+    margin-right: 0;
+    padding: 50px;
+    border-radius: 10px;
+    width: 230px;
+}
+
+.mobilefilter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.filterCategory {
+    width: 225px;
+}
+
+.h2text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #424242;
+}
+
+.h3text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #424242;
+}
+
+.h5text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+}
+
+.h5text:hover {
+    font-weight: bold;
+}
+
+.line {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+}
+
+.categoryAndArrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.sizeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 2%;
+    border: 2px solid black;
+}
+
+.selectionSection {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 60px;
+    width: 225px;
+    cursor: pointer;
+}
+
+.clickBox {
+    height: 25px;
+    width: 25px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.clickedBox {
+    height: 25px;
+    width: 25px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.filterStyling {
+    color: #424242;
+}
+
+@media (max-width: 780px) {
+    .closed {
+        padding: 10px;
+        margin-top: 40px;
+    }
+
+    .categoryAndArrow {
+        padding-right: 0;
+    }
+
+    .selectionSection {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,283 @@
+.linkstyle {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+    height: fit-content;
+    color: #424242;
+}
+
+.linkstyle:hover {
+    text-decoration: underline;
+}
+
+.pstyle {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+    height: fit-content;
+    color: #424242;
+}
+
+.link {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 200;
+    color: #424242;
+}
+
+.imageView {
+    width: 30vw;
+    height: 40vw;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #bbb;
+    border-radius: 4px;
+    padding: 20px;
+    min-height: 100%;
+    width: 500px;
+    color: #424242;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfoAndHeart {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.heartButton {
+    height: 5vw;
+    width: 5vw;
+    cursor: pointer;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.heartButton:hover {
+    transform: scale(1.1);
+}
+
+.notLikedheartButton:hover {
+    fill: rgb(230, 33, 105);
+}
+
+.likedHeartButton {
+    color: rgb(230, 33, 105);
+}
+
+.likedHeartButton:hover {
+    fill: rgb(230, 33, 105);
+}
+
+.titleInDesc {
+    font-size: 2vw;
+    padding-bottom: 10px;
+    width: 400px;
+}
+
+.price {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.taxes {
+    color: black;
+    opacity: 0.55;
+    padding-bottom: 10px;
+}
+
+.clotheDesc {
+    font-size: 20px;
+}
+
+.alreadyInCart {
+    background-color: white;
+    text-align: center;
+    color: rgb(149, 0, 0);
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    padding: 20px 80px 20px 80px;
+    margin-top: auto;
+    background-color: lightgray;
+    opacity: 60%;
+}
+
+.cartButton {
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    padding: 20px 80px 20px 80px;
+    margin-top: auto;
+    transition: background-color 0.3s ease;
+}
+
+.cartButton:hover {
+    background-color: lightgray;
+    opacity: 40%;
+}
+
+@media (max-width: 1024px) {
+    .linkstyle {
+        font-size: 16px;
+        text-decoration: none;
+        height: fit-content;
+        color: #424242;
+    }
+
+    .link {
+        width: fit-content;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .content {
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 40px;
+        margin: 0;
+        margin-top: 20px;
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .imageView {
+        margin: 10px 0px 20px 0px;
+        width: 70vw;
+        height: 80vw;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding: 18px;
+        margin-top: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .productInfo {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .productInfoAndHeart {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .titleInDesc {
+        font-size: 4.5vw;
+        width: fit-content;
+    }
+
+    .price {
+        font-size: 4.5vw;
+        width: fit-content;
+    }
+
+    .taxes {
+        font-size: 3.5vw;
+        color: black;
+        opacity: 0.55;
+        width: fit-content;
+    }
+
+    .clotheDesc {
+        font-size: 4vw;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .heartButton {
+        height: 18vw;
+        width: 18vw;
+        cursor: pointer;
+        background-color: transparent;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.2s;
+        margin-left: 10px;
+    }
+
+    .alreadyInCart {
+        font-size: 3vw;
+        text-align: center;
+        color: rgb(149, 0, 0);
+        border: 2px solid #bbb;
+        border-radius: 10px;
+        padding: 5vw;
+        margin-top: auto;
+        background-color: lightgray;
+        opacity: 60%;
+    }
+
+    .cartButton {
+        font-size: 3vw;
+        text-align: center;
+        cursor: pointer;
+        border: 2px solid #bbb;
+        border-radius: 10px;
+        margin-top: auto;
+        padding: 5vw;
+        transition: background-color 0.3s ease;
+    }
+}
+
+@media (max-width: 638px) {
+    .information {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding: 18px;
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .notLikedheartButton:hover {
+        transform: none;
+        fill: black;
+    }
+}

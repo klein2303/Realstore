@@ -1,0 +1,133 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ClothingsCards Component > matches the snapshot 1`] = `
+<div>
+  <article
+    aria-label="Product card for Test Product"
+    class="_clothingSection_47ab48"
+    role="region"
+  >
+    <figure
+      class="_imgContainer_47ab48"
+    >
+      <a
+        href="/Clothe/1"
+      >
+        <img
+          alt="Image of Test Product"
+          class="_clothingImage_47ab48"
+          src="test-image.jpg"
+        />
+      </a>
+    </figure>
+    <section
+      class="_descriptionSpace_47ab48"
+    >
+      <header
+        class="_productType_47ab48"
+      >
+        <h5
+          class="_category_47ab48"
+        >
+          Clothing
+        </h5>
+        <section
+          aria-label="Product Actions"
+          class="_IconSpace_47ab48"
+        >
+          <span
+            aria-label="Add to cart"
+            role="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              tabindex="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="176"
+                cy="416"
+                fill="none"
+                r="16"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <circle
+                cx="400"
+                cy="416"
+                fill="none"
+                r="16"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <path
+                d="M48 80h64l48 272h256"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+              <path
+                d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="32"
+              />
+            </svg>
+          </span>
+          <span
+            aria-label="Add to favorites"
+            role="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              tabindex="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M349.6 64c-36.4 0-70.7 16.7-93.6 43.9C233.1 80.7 198.8 64 162.4 64 97.9 64 48 114.2 48 179.1c0 79.5 70.7 143.3 177.8 241.7L256 448l30.2-27.2C393.3 322.4 464 258.6 464 179.1 464 114.2 414.1 64 349.6 64zm-80.8 329.3l-4.2 3.9-8.6 7.8-8.6-7.8-4.2-3.9c-50.4-46.3-94-86.3-122.7-122-28-34.7-40.4-63.1-40.4-92.2 0-22.9 8.4-43.9 23.7-59.3 15.2-15.4 36-23.8 58.6-23.8 26.1 0 52 12.2 69.1 32.5l24.5 29.1 24.5-29.1c17.1-20.4 43-32.5 69.1-32.5 22.6 0 43.4 8.4 58.7 23.8 15.3 15.4 23.7 36.5 23.7 59.3 0 29-12.5 57.5-40.4 92.2-28.8 35.7-72.3 75.7-122.8 122z"
+              />
+            </svg>
+          </span>
+        </section>
+      </header>
+      <footer
+        class="_nameAndPrice_47ab48"
+      >
+        <span
+          class="_productname_47ab48"
+        >
+          <h4
+            class="_h4text_47ab48"
+          >
+            Test Product
+          </h4>
+        </span>
+        <span
+          class="_price_47ab48"
+        >
+          <h4
+            class="_h4text_47ab48"
+          >
+            $ 
+            100
+          </h4>
+        </span>
+      </footer>
+    </section>
+  </article>
+</div>
+`;

@@ -1,0 +1,93 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`OrderSummaryList Component > matches the snapshot 1`] = `
+<div>
+  <section
+    aria-label="Order Summary Section"
+    class="_box_3cb8da"
+    role="region"
+  >
+    <h2
+      class="_title_3cb8da"
+    >
+      ORDER SUMMARY
+    </h2>
+    <div
+      aria-label="Subtotal Information"
+      class="_textbox_3cb8da"
+    >
+      <p
+        class="_text_3cb8da"
+      >
+        Subtotal
+      </p>
+      <p
+        class="_text_3cb8da"
+      >
+        $ 
+        100
+      </p>
+    </div>
+    <div
+      aria-label="Shipping Information"
+      class="_textbox_3cb8da"
+    >
+      <p
+        class="_text_3cb8da"
+      >
+        Shipping
+      </p>
+      <p
+        class="_text_3cb8da"
+      >
+        $ Free
+      </p>
+    </div>
+    <div
+      aria-label="Total Cost"
+      class="_totalbox_3cb8da"
+    >
+      <p
+        class="_totaltext_3cb8da"
+      >
+        TOTAL
+      </p>
+      <p
+        class="_taxtext_3cb8da"
+      >
+        (TAX INCL.)
+      </p>
+      <p
+        class="_totaltext_3cb8da"
+      >
+        $ 
+        100
+      </p>
+    </div>
+    <label
+      class="_checkbox_3cb8da"
+    >
+      <input
+        aria-labelledby="termsCheckbox"
+        class="_check_3cb8da"
+        tabindex="0"
+        type="checkbox"
+      />
+      <p
+        class="_checkboxtext_3cb8da"
+        id="termsCheckbox"
+      >
+        I agree to the Terms and Conditions
+      </p>
+    </label>
+    <button
+      aria-disabled="true"
+      class="_button_3cb8da"
+      disabled=""
+      type="button"
+    >
+      PAY
+    </button>
+  </section>
+</div>
+`;

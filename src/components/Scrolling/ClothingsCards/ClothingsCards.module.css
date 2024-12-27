@@ -1,0 +1,119 @@
+.clothingSection {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 410px;
+    width: 220px;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.imgContainer {
+    background-color: white;
+    border-radius: 10px;
+    height: 220px;
+    width: 80%;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clothingImage {
+    max-height: 100%;
+    max-width: 80%;
+    padding-left: 20%;
+    display: block;
+}
+
+.descriptionSpace {
+    background-color: white;
+    border-radius: 10px;
+    height: 130px;
+    width: 100%;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.productType {
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.nameAndPrice {
+    width: 90%;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+}
+
+.productname {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.price {
+    padding-right: 0;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: 200;
+}
+
+.category {
+    color: #424242;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.h4text {
+    font-family: "Georgia", sans-serif;
+    color: #424242;
+    font-weight: 200;
+}
+
+.productType {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconSpace {
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    gap: 5px;
+}
+
+.IconSpaceSvg {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.favorited {
+    color: red;
+}
+
+@media (max-width: 800px) {
+    .clothingSection {
+        height: 330px;
+        width: 220px;
+    }
+}

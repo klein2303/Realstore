@@ -1,0 +1,537 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Filters component > matches snapshot for desktop view 1`] = `
+<div>
+  <section
+    aria-label="Filter Options"
+    class="_closed_950627"
+  >
+    <header
+      class="_categoryAndArrow_950627"
+    />
+    <h2
+      class="_h2text_950627"
+    >
+      Filters
+    </h2>
+    <section
+      class="_filterCategory_950627"
+    >
+      <header
+        aria-controls="category-options"
+        aria-expanded="false"
+        aria-label="Toggle Categories Section"
+        class="_categoryAndArrow_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h3
+          class="_h3text_950627"
+        >
+          Categories
+        </h3>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </span>
+      </header>
+      <h5
+        class="_h5text_950627"
+      >
+        ------------------------------------------
+      </h5>
+    </section>
+    <section
+      class="_filterCategory_950627"
+    >
+      <header
+        aria-controls="price-range-options"
+        aria-expanded="false"
+        aria-label="Toggle Price Range Section"
+        class="_categoryAndArrow_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h3
+          class="_h3text_950627"
+        >
+          Price Range
+        </h3>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </span>
+      </header>
+      <h5
+        class="_h5text_950627"
+      >
+        ------------------------------------------
+      </h5>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`Filters component > matches snapshot for mobile view 1`] = `
+<div>
+  <section
+    aria-label="Filter Options"
+    class="_closed_950627"
+  >
+    <header
+      class="_categoryAndArrow_950627"
+    >
+      <div
+        aria-controls="filter-options"
+        aria-expanded="false"
+        aria-label="Toggle Filters Section"
+        class="_mobilefilter_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h2
+          class="_h2text_950627"
+        >
+          Filters
+        </h2>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </span>
+      </div>
+    </header>
+  </section>
+</div>
+`;
+
+exports[`Filters component > matches snapshot when categories are expanded in mobile view 1`] = `
+<div>
+  <section
+    aria-label="Filter Options"
+    class="_filterSection_950627"
+  >
+    <header
+      class="_categoryAndArrow_950627"
+    >
+      <div
+        aria-controls="filter-options"
+        aria-expanded="true"
+        aria-label="Toggle Filters Section"
+        class="_mobilefilter_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h2
+          class="_h2text_950627"
+        >
+          Filters
+        </h2>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+            />
+          </svg>
+        </span>
+      </div>
+    </header>
+    <section
+      class="_filterCategory_950627"
+    >
+      <header
+        aria-controls="category-options"
+        aria-expanded="true"
+        aria-label="Toggle Categories Section"
+        class="_categoryAndArrow_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h3
+          class="_h3text_950627"
+        >
+          Categories
+        </h3>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+            />
+          </svg>
+        </span>
+      </header>
+      <ul
+        aria-label="Filter by Category"
+        class="_filterStyling_950627"
+        id="category-options"
+      >
+        <li
+          aria-label="Filter by Men's clothing"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select Men's clothing"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_line_950627"
+          >
+            Men's clothing
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by Women's clothing"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select Women's clothing"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_line_950627"
+          >
+            Women's clothing
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by Jewelery"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select Jewelery"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_line_950627"
+          >
+            Jewelery
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by Electronics"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select Electronics"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_line_950627"
+          >
+            Electronics
+          </h5>
+        </li>
+      </ul>
+      <h5
+        class="_h5text_950627"
+      >
+        ------------------------------------------
+      </h5>
+    </section>
+    <section
+      class="_filterCategory_950627"
+    >
+      <header
+        aria-controls="price-range-options"
+        aria-expanded="false"
+        aria-label="Toggle Price Range Section"
+        class="_categoryAndArrow_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h3
+          class="_h3text_950627"
+        >
+          Price Range
+        </h3>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </span>
+      </header>
+      <h5
+        class="_h5text_950627"
+      >
+        ------------------------------------------
+      </h5>
+    </section>
+  </section>
+</div>
+`;
+
+exports[`Filters component > matches snapshot when price range is expanded 1`] = `
+<div>
+  <section
+    aria-label="Filter Options"
+    class="_closed_950627"
+  >
+    <header
+      class="_categoryAndArrow_950627"
+    />
+    <h2
+      class="_h2text_950627"
+    >
+      Filters
+    </h2>
+    <section
+      class="_filterCategory_950627"
+    >
+      <header
+        aria-controls="category-options"
+        aria-expanded="false"
+        aria-label="Toggle Categories Section"
+        class="_categoryAndArrow_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h3
+          class="_h3text_950627"
+        >
+          Categories
+        </h3>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"
+            />
+          </svg>
+        </span>
+      </header>
+      <h5
+        class="_h5text_950627"
+      >
+        ------------------------------------------
+      </h5>
+    </section>
+    <section
+      class="_filterCategory_950627"
+    >
+      <header
+        aria-controls="price-range-options"
+        aria-expanded="true"
+        aria-label="Toggle Price Range Section"
+        class="_categoryAndArrow_950627"
+        role="button"
+        tabindex="0"
+      >
+        <h3
+          class="_h3text_950627"
+        >
+          Price Range
+        </h3>
+        <span
+          class="_arrow_950627"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"
+            />
+          </svg>
+        </span>
+      </header>
+      <ul
+        aria-label="Filter by Price Range"
+        class="_filterStyling_950627"
+        id="price-range-options"
+      >
+        <li
+          aria-label="Filter by price range 0-10 dollars"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select price range 0-10"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_h5text_950627"
+          >
+            0-10
+             $
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by price range 10-50 dollars"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select price range 10-50"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_h5text_950627"
+          >
+            10-50
+             $
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by price range 50-100 dollars"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select price range 50-100"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_h5text_950627"
+          >
+            50-100
+             $
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by price range 100-500 dollars"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select price range 100-500"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_h5text_950627"
+          >
+            100-500
+             $
+          </h5>
+        </li>
+        <li
+          aria-label="Filter by price range 500-1000 dollars"
+          class="_selectionSection_950627"
+          role="button"
+          tabindex="0"
+        >
+          <button
+            aria-label="Select price range 500-1000"
+            aria-pressed="false"
+            class="_clickBox_950627"
+          />
+          <h5
+            class="_h5text_950627"
+          >
+            500-1000
+             $
+          </h5>
+        </li>
+      </ul>
+      <h5
+        class="_h5text_950627"
+      >
+        ------------------------------------------
+      </h5>
+    </section>
+  </section>
+</div>
+`;

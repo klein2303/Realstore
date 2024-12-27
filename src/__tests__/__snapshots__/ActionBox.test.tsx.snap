@@ -1,0 +1,351 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ActionBox component > adds product to cart when "Add to Cart" button is clicked, for desktop version 1`] = `
+<div>
+  <nav
+    aria-label="Navigation"
+    class="_link_1ba521"
+  >
+    <a
+      class="_linkstyle_1ba521"
+      href="/"
+    >
+      Home
+    </a>
+     
+    /
+    <a
+      class="_linkstyle_1ba521"
+      href="/shopping"
+    >
+       
+      Shop
+    </a>
+     
+    /
+    <p
+      class="_pstyle_1ba521"
+      id="product-title"
+    >
+       
+      Sample Product
+    </p>
+  </nav>
+  <h1
+    class="_title_1ba521"
+  >
+    SHOP - 
+    Sample Product
+  </h1>
+  <section
+    aria-label="product-information"
+    class="_content_1ba521"
+    role="region"
+  >
+    <img
+      alt="Sample Product"
+      class="_imageView_1ba521"
+      src="https://via.placeholder.com/150"
+    />
+    <article
+      class="_information_1ba521"
+      role="region"
+    >
+      <section
+        class="_productInfoAndHeart_1ba521"
+      >
+        <section
+          class="_productInfo_1ba521"
+        >
+          <p
+            class="_titleInDesc_1ba521"
+            id="product-description"
+          >
+            Sample Product
+          </p>
+          <p
+            class="_price_1ba521"
+          >
+            $10.00
+             $
+          </p>
+          <p
+            class="_taxes_1ba521"
+          >
+            Taxes are included
+          </p>
+        </section>
+        <svg
+          aria-label="Add to favorites"
+          class="_heartButton_1ba521 _notLikedheartButton_1ba521"
+          fill="currentColor"
+          height="1em"
+          role="button"
+          stroke="currentColor"
+          stroke-width="0"
+          tabindex="0"
+          viewBox="0 0 256 256"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M220.18,59.79a54.05,54.05,0,0,0-76.31,0L128,74.51,112.13,59.74A54,54,0,0,0,35.8,136.15l89.35,90.66a4,4,0,0,0,5.7,0l89.33-90.64a54,54,0,0,0,0-76.38Zm-5.67,70.74L128,218.3,41.47,130.51a46,46,0,0,1,65.06-65.06l.1.1,18.64,17.36a4,4,0,0,0,5.46,0l18.64-17.36.1-.1a46,46,0,1,1,65,65.08Z"
+          />
+        </svg>
+      </section>
+      <p
+        class="_clotheDesc_1ba521"
+      >
+        Sample Description
+      </p>
+      <div
+        aria-live="polite"
+        class="_alreadyInCart_1ba521"
+        role="status"
+      >
+        ADDED TO CART
+      </div>
+    </article>
+  </section>
+</div>
+`;
+
+exports[`ActionBox component > renders correctly on desktop version 1`] = `
+<div>
+  <nav
+    aria-label="Navigation"
+    class="_link_1ba521"
+  >
+    <a
+      class="_linkstyle_1ba521"
+      href="/"
+    >
+      Home
+    </a>
+     
+    /
+    <a
+      class="_linkstyle_1ba521"
+      href="/shopping"
+    >
+       
+      Shop
+    </a>
+     
+    /
+    <p
+      class="_pstyle_1ba521"
+      id="product-title"
+    >
+       
+      Sample Product
+    </p>
+  </nav>
+  <h1
+    class="_title_1ba521"
+  >
+    SHOP - 
+    Sample Product
+  </h1>
+  <section
+    aria-label="product-information"
+    class="_content_1ba521"
+    role="region"
+  >
+    <img
+      alt="Sample Product"
+      class="_imageView_1ba521"
+      src="https://via.placeholder.com/150"
+    />
+    <article
+      class="_information_1ba521"
+      role="region"
+    >
+      <section
+        class="_productInfoAndHeart_1ba521"
+      >
+        <section
+          class="_productInfo_1ba521"
+        >
+          <p
+            class="_titleInDesc_1ba521"
+            id="product-description"
+          >
+            Sample Product
+          </p>
+          <p
+            class="_price_1ba521"
+          >
+            $10.00
+             $
+          </p>
+          <p
+            class="_taxes_1ba521"
+          >
+            Taxes are included
+          </p>
+        </section>
+        <svg
+          aria-label="Add to favorites"
+          class="_heartButton_1ba521 _notLikedheartButton_1ba521"
+          fill="currentColor"
+          height="1em"
+          role="button"
+          stroke="currentColor"
+          stroke-width="0"
+          tabindex="0"
+          viewBox="0 0 256 256"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M220.18,59.79a54.05,54.05,0,0,0-76.31,0L128,74.51,112.13,59.74A54,54,0,0,0,35.8,136.15l89.35,90.66a4,4,0,0,0,5.7,0l89.33-90.64a54,54,0,0,0,0-76.38Zm-5.67,70.74L128,218.3,41.47,130.51a46,46,0,0,1,65.06-65.06l.1.1,18.64,17.36a4,4,0,0,0,5.46,0l18.64-17.36.1-.1a46,46,0,1,1,65,65.08Z"
+          />
+        </svg>
+      </section>
+      <p
+        class="_clotheDesc_1ba521"
+      >
+        Sample Description
+      </p>
+      <button
+        aria-label="Add to cart"
+        class="_cartButton_1ba521"
+      >
+        ADD TO CART
+      </button>
+    </article>
+  </section>
+</div>
+`;
+
+exports[`ActionBox component > renders correctly on mobile version 1`] = `
+<div>
+  <nav
+    aria-label="Navigation"
+    class="_link_1ba521"
+  >
+    <a
+      class="_linkstyle_1ba521"
+      href="/"
+    >
+      Home
+    </a>
+     
+    /
+    <a
+      class="_linkstyle_1ba521"
+      href="/shopping"
+    >
+       
+      Shop
+    </a>
+     
+    /
+    <p
+      class="_pstyle_1ba521"
+      id="product-title"
+    >
+       
+      Sample Product
+    </p>
+  </nav>
+  <h1
+    class="_title_1ba521"
+  >
+    SHOP - 
+    Sample Product
+  </h1>
+  <section
+    aria-label="product-information"
+    class="_content_1ba521"
+    role="region"
+  >
+    <img
+      alt="Sample Product"
+      class="_imageView_1ba521"
+      src="https://via.placeholder.com/150"
+    />
+    <article
+      class="_information_1ba521"
+      role="region"
+    >
+      <section
+        class="_productInfoAndHeart_1ba521"
+      >
+        <section
+          class="_productInfo_1ba521"
+        >
+          <p
+            class="_titleInDesc_1ba521"
+            id="product-description"
+          >
+            Sample Product
+          </p>
+          <p
+            class="_price_1ba521"
+          >
+            $10.00
+             $
+          </p>
+          <p
+            class="_taxes_1ba521"
+          >
+            Taxes are included
+          </p>
+        </section>
+        <svg
+          aria-label="Add to favorites"
+          class="_heartButton_1ba521 _notLikedheartButton_1ba521"
+          fill="currentColor"
+          height="1em"
+          role="button"
+          stroke="currentColor"
+          stroke-width="0"
+          tabindex="0"
+          viewBox="0 0 256 256"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M220.18,59.79a54.05,54.05,0,0,0-76.31,0L128,74.51,112.13,59.74A54,54,0,0,0,35.8,136.15l89.35,90.66a4,4,0,0,0,5.7,0l89.33-90.64a54,54,0,0,0,0-76.38Zm-5.67,70.74L128,218.3,41.47,130.51a46,46,0,0,1,65.06-65.06l.1.1,18.64,17.36a4,4,0,0,0,5.46,0l18.64-17.36.1-.1a46,46,0,1,1,65,65.08Z"
+          />
+        </svg>
+      </section>
+      <p
+        class="_clotheDesc_1ba521"
+      >
+        Sample Description
+      </p>
+      <button
+        aria-label="Add to cart"
+        class="_cartButton_1ba521"
+      >
+        ADD TO CART
+      </button>
+    </article>
+  </section>
+</div>
+`;
+
+exports[`ActionBox component > renders error state when product fetching fails 1`] = `
+<div>
+  <section
+    aria-live="assertive"
+    role="alert"
+  >
+    Error fetching products.
+  </section>
+</div>
+`;
+
+exports[`ActionBox component > renders loading state initially 1`] = `
+<div>
+  <section
+    aria-live="polite"
+    role="status"
+  >
+    Loading...
+  </section>
+</div>
+`;

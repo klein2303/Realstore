@@ -1,0 +1,87 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer component > matches snapshot 1`] = `
+<div>
+  <footer
+    aria-label="Website Footer"
+    class="_footer_eb428f"
+    role="contentinfo"
+  >
+    <section
+      class="_imageholder_eb428f"
+    >
+      <img
+        alt="Decorative footer image"
+        class="_image_eb428f"
+        src="/project1/footer.svg"
+      />
+      <p
+        class="_title_eb428f"
+      >
+        EXPLORE OUR CATALOG
+      </p>
+      <div
+        aria-label="Footer Navigation"
+        class="_box_eb428f"
+        role="region"
+      >
+        <div
+          class="_informationbox_eb428f"
+        >
+          <p
+            class="_informationtitle_eb428f"
+          >
+            GENERAL
+          </p>
+          <a
+            class="_informationlink_eb428f"
+            href="/"
+          >
+            <p
+              aria-label="Home Link"
+              class="_informationtext_eb428f"
+            >
+              Home
+            </p>
+          </a>
+          <a
+            class="_informationlink_eb428f"
+            href="/Shopping"
+          >
+            <p
+              class="_informationtext_eb428f"
+            >
+              Shop
+            </p>
+          </a>
+        </div>
+        <div
+          aria-hidden="true"
+          class="_divider_eb428f"
+          role="separator"
+        />
+        <div
+          aria-label="Footer Logo and Information"
+          class="_logobox_eb428f"
+        >
+          <a
+            href="/"
+          >
+            <img
+              alt="RealStore logo"
+              aria-label="RealStore Logo"
+              class="_logoimg_eb428f"
+              src="/project1/Logo.svg"
+            />
+          </a>
+          <p
+            class="_logoinformation_eb428f"
+          >
+            @2024 RealStore.com
+          </p>
+        </div>
+      </div>
+    </section>
+  </footer>
+</div>
+`;

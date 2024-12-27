@@ -1,0 +1,133 @@
+.homepage {
+    height: fit-content;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.homebox {
+    padding-top: 100px;
+
+    height: 560px;
+    width: 800px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image {
+    height: 920px;
+    width: 800px;
+
+    position: relative;
+    bottom: 100px;
+}
+
+.informationbox {
+    height: 400px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    gap: 5px;
+}
+
+.descriptiontext {
+    font-size: 50px;
+    color: #424242;
+}
+
+.shoptext {
+    font-size: 50px;
+    color: #424242;
+    font-weight: bold;
+}
+
+.informationtext {
+    font-size: 16px;
+    color: #424242;
+
+    padding-bottom: 60px;
+}
+
+.shoppingbutton {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    color: white;
+    background-color: #229799;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.shoppingbutton:hover {
+    background-color: #187171;
+}
+
+@media (max-width: 820px) {
+    .homepage {
+        overflow-x: hidden;
+    }
+
+    .homebox {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        overflow: hidden;
+        background-size: cover;
+        position: relative;
+    }
+
+    .image {
+        height: 750px;
+        width: 600px;
+        z-index: 10;
+        position: absolute;
+        right: -150px;
+        filter: brightness(120%);
+        filter: opacity(0.5);
+        bottom: -180px;
+    }
+
+    .informationbox {
+        height: 300px;
+        width: 200px;
+        z-index: 20;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .descriptiontext {
+        font-size: 22px;
+    }
+
+    .shoptext {
+        font-size: 22px;
+    }
+
+    .informationtext {
+        font-size: 14px;
+    }
+
+    .shoppingbutton {
+        padding: 8px 15px 8px 15px;
+        font-size: 14px;
+    }
+
+    .arrow {
+        font-size: 11px;
+    }
+}

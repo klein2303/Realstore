@@ -1,0 +1,172 @@
+.footer {
+    width: 100%;
+    height: fit-content;
+    font-family: "Source Sans 3", sans-serif;
+    margin-top: auto;
+}
+
+.imageholder {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informationbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    position: absolute;
+    z-index: 10;
+    filter: brightness(20%);
+}
+
+.box {
+    z-index: 20;
+    background-color: white;
+    width: 450px;
+    height: 60%;
+    border-radius: 30px;
+    gap: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    z-index: 20;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.informationlink,
+.informationlink:focus {
+    text-decoration: none;
+    color: #424242;
+    font-size: 20px;
+}
+
+.informationlink:hover {
+    text-decoration: underline;
+}
+
+.informationtext {
+    margin-top: 8px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.informationtitle {
+    font-size: 20px;
+    font-weight: 200;
+    color: #424242;
+}
+
+.logoimg {
+    width: 100px;
+    height: auto;
+}
+
+.logoinformation {
+    font-size: 12px;
+    color: #424242;
+}
+
+.logobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    height: 70%;
+    width: 1px;
+    background-color: #424242;
+}
+
+@media (max-width: 500px) {
+    .imageholder {
+        width: 100%;
+        height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divider {
+        height: 80%;
+        width: 1px;
+        background-color: #424242;
+    }
+
+    .image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        position: absolute;
+        z-index: 10;
+        filter: brightness(20%);
+    }
+
+    .box {
+        z-index: 20;
+        background-color: white;
+        width: 300px;
+        height: 62%;
+        border-radius: 15px;
+        gap: 20px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        z-index: 20;
+        font-size: 18px;
+        color: white;
+    }
+
+    .informationlink,
+    .informationlink:hover,
+    .informationlink:focus {
+        text-decoration: none;
+        color: #424242;
+        font-size: 12px;
+    }
+
+    .informationtext {
+        margin-top: 6px;
+    }
+
+    .informationtitle {
+        font-size: 14px;
+        font-weight: normal;
+        color: #424242;
+    }
+
+    .logoimg {
+        width: 55px;
+        height: auto;
+    }
+
+    .logoinformation {
+        font-size: 10px;
+        color: #424242;
+    }
+}

@@ -1,0 +1,101 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`OrderSummaryItems Component > matches the snapshot when products are available 1`] = `
+<div>
+  <section
+    aria-label="Order Summary Items"
+    class="_itembox_5c914e"
+    role="region"
+  >
+    <article
+      aria-label="Product card for Mock Product 1..."
+      class="_clothingSection_47ab48"
+      role="region"
+    >
+      <figure
+        class="_imgContainer_47ab48"
+      >
+        <a
+          href="/Clothe/1"
+        >
+          <img
+            alt="Image of Mock Product 1..."
+            class="_clothingImage_47ab48"
+            src="mock-image-1.jpg"
+          />
+        </a>
+      </figure>
+      <section
+        class="_descriptionSpace_47ab48"
+      >
+        <header
+          class="_productType_47ab48"
+        >
+          <h5
+            class="_category_47ab48"
+          >
+            Electronics
+          </h5>
+          <section
+            aria-label="Product Actions"
+            class="_IconSpace_47ab48"
+          >
+            <span
+              aria-label="Remove from cart"
+              role="button"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                tabindex="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="176"
+                  cy="416"
+                  r="32"
+                />
+                <circle
+                  cx="400"
+                  cy="416"
+                  r="32"
+                />
+                <path
+                  d="M456.8 120.78a23.92 23.92 0 0 0-18.56-8.78H133.89l-6.13-34.78A16 16 0 0 0 112 64H48a16 16 0 0 0 0 32h50.58l45.66 258.78A16 16 0 0 0 160 368h256a16 16 0 0 0 0-32H173.42l-5.64-32h241.66A24.07 24.07 0 0 0 433 284.71l28.8-144a24 24 0 0 0-5-19.93z"
+                />
+              </svg>
+            </span>
+          </section>
+        </header>
+        <footer
+          class="_nameAndPrice_47ab48"
+        >
+          <span
+            class="_productname_47ab48"
+          >
+            <h4
+              class="_h4text_47ab48"
+            >
+              Mock Product 1...
+            </h4>
+          </span>
+          <span
+            class="_price_47ab48"
+          >
+            <h4
+              class="_h4text_47ab48"
+            >
+              $ 
+              100
+            </h4>
+          </span>
+        </footer>
+      </section>
+    </article>
+  </section>
+</div>
+`;

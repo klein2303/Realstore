@@ -1,0 +1,76 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Scrolling Component > matches the snapshot when products are available 1`] = `
+<div>
+  <section
+    class="_clothesSections_d7aa43"
+    role="region"
+  >
+    <article
+      aria-label="Product list"
+      class="_rows_d7aa43"
+      role="list"
+    >
+      <article
+        aria-label="Product card for Mock Product 1..."
+        class="_clothingSection_47ab48"
+        role="region"
+      >
+        <figure
+          class="_imgContainer_47ab48"
+        >
+          <a
+            href="/Clothe/1"
+          >
+            <img
+              alt="Image of Mock Product 1..."
+              class="_clothingImage_47ab48"
+              src="mock-image-1.jpg"
+            />
+          </a>
+        </figure>
+        <section
+          class="_descriptionSpace_47ab48"
+        >
+          <header
+            class="_productType_47ab48"
+          >
+            <h5
+              class="_category_47ab48"
+            >
+              Electronics
+            </h5>
+            <section
+              aria-label="Product Actions"
+              class="_IconSpace_47ab48"
+            />
+          </header>
+          <footer
+            class="_nameAndPrice_47ab48"
+          >
+            <span
+              class="_productname_47ab48"
+            >
+              <h4
+                class="_h4text_47ab48"
+              >
+                Mock Product 1...
+              </h4>
+            </span>
+            <span
+              class="_price_47ab48"
+            >
+              <h4
+                class="_h4text_47ab48"
+              >
+                $ 
+                50
+              </h4>
+            </span>
+          </footer>
+        </section>
+      </article>
+    </article>
+  </section>
+</div>
+`;
