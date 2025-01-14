@@ -1,4 +1,6 @@
-This repository contains one of two projects from the subject IT2810 Web Development at NTNU. The course covers technologies and methods used in development of web-applications. Through the projects, we leared about architectures, languages, formats and standards for web-applications and how real-life projects at companies can be developed. 
+This repository contains one of two projects from the subject IT2810 Web Development at NTNU. The course covers technologies and methods used in development of web-applications. Through the projects, we leared about architectures, languages, formats and standards for web-applications and how real-life projects at companies can be developed. I made this project together with three other students.
+
+The other project can be found here: https://github.com/klein2303/World-Explore
 
 ## Table of content:
 
