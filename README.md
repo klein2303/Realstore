@@ -24,7 +24,11 @@ To do so, run the following commands in a terminal while inside the mentioned fo
 - `npm install react-icons`
 - `npm install @tanstack/react-query`
 
-Now run `npm run dev` in order to run the project
+Now run:
+
+`npm run dev` 
+
+in order to run the project
 
 ## Running tests
 
