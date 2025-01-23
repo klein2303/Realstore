@@ -6,6 +6,8 @@ The other project can be found here: https://github.com/klein2303/World-Explore
 
 - About the project
 - Running the project
+- Running tests
+- Running eslint
 
 ## About the project
 
